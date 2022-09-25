@@ -1,0 +1,91 @@
+-Abstração: Processo mental em que nos atemos apenas as características gerais do problema necessários para resolver um problema.
+
+-Tipo Abstrato de Dados :  Passo após a abstração, no qual se determina os dados/tipos de dados que atendem á abstração.
+
+ex: Lampâda --> Saber se está desligada ou ligada.
+    celular --> Representação que permita armazenar contatos... 
+    etc
+
+ // para concretizar T.A.D escolhe-se uma linguagem de programação e definir uma estrutura complexa para representa-la //
+
+ Estrutura de Dados:  um modelo que representa uma abstração, constítuido por dados e operações que podem atuar sobre seus respectivos dados.
+
+ / o acesso aos dados apenas deve ser feito mediante suas operações /
+
+-Garantir o Encapsulamento;
+-Aplicar modularização; (Divisão do programa em módulos)
+-Criação
+-Inclusão/Remoção
+-Percurso
+-Busca
+
+Estruturas Lineares: Organização caracterizada pela disposição sequencial dos seus nós/elementos
+
+-Pilhas
+-Filas
+-Listas
+-Deque
+
+Estrutura Não-Linear: Tipo de Organização na qual um elemento pode estar associado a vários nós/elementos. Modelos usados quando é necessário definir uma hierarquia entre elementos 
+
+-Árvores(Binárias e ordenadas)
+-Grafos
+
+
+Estruturas de Dados podem ser implementadas utilizando a técnica Sequencial ou Encadeada.
+
+Sequencial -> Os elementos sao armazenados em Arrays. 
+#tamanho máximo pré estimado 
+#Acesso por índices (índice inexistente-IndexError)
+#Elementos sao armazenados de maneira consecutiva na memória
+#Inserção de um elemento em uma posição pré-ocupada irá resultar no elemento antes posto ser jogado pro índice consecutivo (n+1) , demonstração disso é o metodo insert().
+# do mesmo modo, quando há remoção, há também uma deslocamento á esquerda da Array
+
+Vantagens da Sequencial: -Acesso direto e indexado a qualquer elemento da Lista
+- Tempo constante pra acessar qualquer elemento da Array
+
+Desvantagens da Sequencial: -Quando há inserção/remoção de um elemento da lista acontece movimentação. 
+- Tamanho máximo pré estimado
+-memória ocupada mesmo com a Array vazia
+
+Aplicabilidade:
+-Quando temos uma lista com poucos elementos
+-Inserção/Remoção no fim do Array
+-Quando tamanho máximo é bem definido 
+
+Encadeada --> Os ELEMENTOS também estarao de forma sequencial, mas serão alocados,individualmente,de forma dinamica e interligados manualmente, prove melhor uso da memória.
+permite-se dealocar elementos,na memória, que não sao mais úteis
+
+ # na Encadeada, cada nó/elemento possui um apontador para o próximo elemento
+
+# o nó possui duas estruturas: 1. O dado que vai ser armazenado 2. o apontador para o próximo elemento
+# o utlimo nó apenas tem um apontador determinado que é o fim daquela lista.
+# a intercalçaõ de novos elemntos sao ajustadas com uso de links.
+
+Vantagens da Encadeada:
+*A lista cresce mesmo com memória fragmemtada
+* só utiliza a área quando é necessária 
+*tamanho ilimitado
+*Sem deslocamentos 
+
+
+DesVantagens da Encadeada:
+*complexidade do código
+
+
+Aplicabilidade:
+*Qualquer cenário.
+
+PILHA SEQUENCIAL: LIFO (LAST IN FIRST OUT); Inserção e remoção na mesma ponta do vetor!!! (empilhar e desempilhar)
+
+ex: Pilha de pratos. o ultimo prato a ser colocado no topo da pilha será o primeiro a ser removido!
+
+inserir usando append(), removendo da ultima posição ou do índice 0.
+
+
+Exemplo de uso da pilha: Controle de navegação em sites, desfazer ação no SO (ctrl z);
+
+
+
+
+
