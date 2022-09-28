@@ -34,7 +34,7 @@ Estrutura Não-Linear: Tipo de Organização na qual um elemento pode estar asso
 
 Estruturas de Dados podem ser implementadas utilizando a técnica Sequencial ou Encadeada.
 
-Sequencial -> Os elementos sao armazenados em Arrays. 
+Sequencial --> Os elementos sao armazenados em Arrays. 
 #tamanho máximo pré estimado 
 #Acesso por índices (índice inexistente-IndexError)
 #Elementos sao armazenados de maneira consecutiva na memória
@@ -60,10 +60,10 @@ permite-se dealocar elementos,na memória, que não sao mais úteis
 
 # o nó possui duas estruturas: 1. O dado que vai ser armazenado 2. o apontador para o próximo elemento
 # o utlimo nó apenas tem um apontador determinado que é o fim daquela lista.
-# a intercalçaõ de novos elemntos sao ajustadas com uso de links.
+# a intercalação de novos elementos sao ajustadas com uso de links.
 
 Vantagens da Encadeada:
-*A lista cresce mesmo com memória fragmemtada
+*A lista cresce mesmo com memória fragmentada
 * só utiliza a área quando é necessária 
 *tamanho ilimitado
 *Sem deslocamentos 
@@ -76,6 +76,7 @@ DesVantagens da Encadeada:
 Aplicabilidade:
 *Qualquer cenário.
 
+
 PILHA SEQUENCIAL: LIFO (LAST IN FIRST OUT); Inserção e remoção na mesma ponta do vetor!!! (empilhar e desempilhar)
 
 ex: Pilha de pratos. o ultimo prato a ser colocado no topo da pilha será o primeiro a ser removido!
@@ -87,5 +88,22 @@ Exemplo de uso da pilha: Controle de navegação em sites, desfazer ação no SO
 
 
 
+PILHA ENCADEADA: mesma lógica de uma pilha sequencial mas utilizando uma classe Nó que possui 2 atributos no construtor :
+*carga
+*proximo
+
+
+LISTA: ( estrutura linear   )
+
+ex prático: Fila de um banco 
+ 
+ -FIFO (FIRST IN FIRST OUT )
+-LILO(LAST IN LAST OUT )
+
+
+# A diferença na aplicação da pilha para uma fila, é principalmente na lógica de inserção e remoção de elementos, ou seja,empilhar/desempilhar ou enfileirar/desinfileirar
+
+
+# na fila, os elementos devem ser inseridos por um lado e removidos pelo outro.
 
 
